@@ -1,40 +1,40 @@
 # Linux Baasic Commands
 
-### `ls`
+## `ls`
 
 List files and directories in the current working directory
 
 
-### `pwd`
+## `pwd`
 
 print the current working directory
 
 
-### `cd`
+## `cd`
 
 change directory
 
 
-### `mkdir`
+## `mkdir`
 
 create directories
 
 
-### `cp`
+## `cp`
 
 Copy
 
 `cp <source> <destination>` Copy source file/dir to destination directory
 
 
-### `mv`
+## `mv`
 
 Move or rename
 
 `mv <source> <destination>` Move source file/dir to destination directory
 
 
-### `rm`
+## `rm`
 
 Delete files and folders
 
@@ -43,7 +43,7 @@ Delete files and folders
 `-i` flag in conjunction with the `-r` flag, will prompt for confirmation before deleting each file and directory.
 
 
-### `touch`
+## `touch`
 
 Creates an empty file or updates the timestamp of an existing file
 
@@ -51,19 +51,19 @@ Creates an empty file or updates the timestamp of an existing file
 Create file with given name.
 
 
-### `clear`
+## `clear`
 
 Clears the terminal screen
 
 Alternatively, `Alt + L` achieves a similar result.
 
 
-### `cat`
+## `cat`
 
 Prints the contents of the file
 
 
-### `less`
+## `less`
 
 used when the output printed by any command is larger than the screen space and needs scrolling
 
@@ -72,11 +72,11 @@ used when the output printed by any command is larger than the screen space and 
 `-N` flag with less to display line numbers
 
 
-### `man`
+## `man`
 Display the manual page for a specific command. It provides detailed information about the command, including its syntax, options, and examples.
 
 
-### `uname`
+## `uname`
 
 Displays information about the system’s kernel, including the kernel name, hostname, kernel release, kernel version, and machine hardware name.
 
@@ -88,64 +88,64 @@ Displays information about the system’s kernel, including the kernel name, hos
 `-m` to display the machine hardware name.
 
 
-### `whoami`
+## `whoami`
 
 returns the current user’s username.
 
 
-### `grep`
+## `grep`
 
 a powerful and versatile text search tool in Linux and Unix-based operating systems. It can search for specific patterns or strings in one or more files and filter the output of other commands.
 
 The `grep` command stands for “global regular expression print,” which reflects its ability to search for regular expressions across multiple lines and files.
 
 
-### `head` and `tail`
+## `head` and `tail`
 head and tail commands display the first 10 lines of a file by default.
 
 `-n` option, followed by the number of lines you want to display.
 
 
-### `chmod`
+## `chmod`
 
 Change the permissions of a file or directory.
 
 
-### `chown` 
+## `chown` 
 Change the ownership of a file or directory.
 
 
-### `sudo`
+## `sudo`
 
 Escalate privileges. This command is equivalent to logging in as root.
 
 
-### `cal`
+## `cal`
 
 Displays a well-presented calendar on the terminal.
 
 
-### `whereis`
+## `whereis`
 
 Locates the binary, source, and manual pages for a specific command or program.
 
 
-### `whatis`
+## `whatis`
 
 Displays a short description of a command or program.
 
 
-### `useradd`
+## `useradd`
 
 Create a new user in Linux.
 
 
-### `usermod`
+## `usermod`
 
 Used to modify existing users. Modify any value of the user including the groups, the permissions, etc.
 
 
-### `passwd`
+## `passwd`
 Set the password for your own account, or if you have the permissions, set the password for other accounts.
 
 
